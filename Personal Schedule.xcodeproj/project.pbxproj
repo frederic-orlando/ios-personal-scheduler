@@ -9,12 +9,31 @@
 /* Begin PBXBuildFile section */
 		9322CC4C24ECE619005652DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC4B24ECE619005652DE /* AppDelegate.swift */; };
 		9322CC4E24ECE619005652DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC4D24ECE619005652DE /* SceneDelegate.swift */; };
-		9322CC5024ECE619005652DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC4F24ECE619005652DE /* ViewController.swift */; };
+		9322CC5024ECE619005652DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC4F24ECE619005652DE /* HomeViewController.swift */; };
 		9322CC5324ECE619005652DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9322CC5124ECE619005652DE /* Main.storyboard */; };
 		9322CC5524ECE61B005652DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9322CC5424ECE61B005652DE /* Assets.xcassets */; };
 		9322CC5824ECE61B005652DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9322CC5624ECE61B005652DE /* LaunchScreen.storyboard */; };
 		9322CC6324ECE61B005652DE /* Personal_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC6224ECE61B005652DE /* Personal_ScheduleTests.swift */; };
 		9322CC6E24ECE61B005652DE /* Personal_ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC6D24ECE61B005652DE /* Personal_ScheduleUITests.swift */; };
+		9322CC7D24ECF780005652DE /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9322CC7C24ECF780005652DE /* Home.storyboard */; };
+		9322CC7F24ECFB57005652DE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC7E24ECFB57005652DE /* HomeViewModel.swift */; };
+		9322CC8224ECFC40005652DE /* HomeTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC8024ECFC40005652DE /* HomeTaskCell.swift */; };
+		9322CC8324ECFC40005652DE /* HomeTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9322CC8124ECFC40005652DE /* HomeTaskCell.xib */; };
+		9322CC8624ED034A005652DE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC8524ED034A005652DE /* Task.swift */; };
+		9322CC8824ED6EB8005652DE /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322CC8724ED6EB8005652DE /* Day.swift */; };
+		933F224824EE15B6007FC280 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F224724EE15B6007FC280 /* Defaults.swift */; };
+		9387682B24EF40D6001B1D11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387682A24EF40D6001B1D11 /* Extensions.swift */; };
+		9387682D24EF423D001B1D11 /* UtilsDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387682C24EF423D001B1D11 /* UtilsDate.swift */; };
+		9396C35224F1EE02002BEA9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396C35124F1EE02002BEA9A /* SettingsViewController.swift */; };
+		9396C35424F1F35A002BEA9A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396C35324F1F35A002BEA9A /* SettingsViewModel.swift */; };
+		9397C83E24F337E5000165BB /* AddButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9397C83C24F337E4000165BB /* AddButtonCell.swift */; };
+		9397C83F24F337E5000165BB /* AddButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9397C83D24F337E4000165BB /* AddButtonCell.xib */; };
+		9397C84124F33D08000165BB /* TaskFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9397C84024F33D08000165BB /* TaskFormViewController.swift */; };
+		93B1A07324EFCEB400B8341B /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1A07224EFCEB400B8341B /* History.storyboard */; };
+		93B1A07524EFD02900B8341B /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1A07424EFD02900B8341B /* Settings.storyboard */; };
+		93B1A07724F012D800B8341B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1A07624F012D800B8341B /* HistoryViewController.swift */; };
+		93B1A07924F0140200B8341B /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1A07824F0140200B8341B /* HistoryViewModel.swift */; };
+		93D2C11B24F3BAC8003C8291 /* Task Form.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D2C11A24F3BAC8003C8291 /* Task Form.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +57,7 @@
 		9322CC4824ECE619005652DE /* Personal Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9322CC4B24ECE619005652DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9322CC4D24ECE619005652DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9322CC4F24ECE619005652DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9322CC4F24ECE619005652DE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9322CC5224ECE619005652DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9322CC5424ECE61B005652DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9322CC5724ECE61B005652DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,25 @@
 		9322CC6924ECE61B005652DE /* Personal ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9322CC6D24ECE61B005652DE /* Personal_ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_ScheduleUITests.swift; sourceTree = "<group>"; };
 		9322CC6F24ECE61B005652DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9322CC7C24ECF780005652DE /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		9322CC7E24ECFB57005652DE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9322CC8024ECFC40005652DE /* HomeTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTaskCell.swift; sourceTree = "<group>"; };
+		9322CC8124ECFC40005652DE /* HomeTaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTaskCell.xib; sourceTree = "<group>"; };
+		9322CC8524ED034A005652DE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		9322CC8724ED6EB8005652DE /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		933F224724EE15B6007FC280 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		9387682A24EF40D6001B1D11 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9387682C24EF423D001B1D11 /* UtilsDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsDate.swift; sourceTree = "<group>"; };
+		9396C35124F1EE02002BEA9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9396C35324F1F35A002BEA9A /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		9397C83C24F337E4000165BB /* AddButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButtonCell.swift; sourceTree = "<group>"; };
+		9397C83D24F337E4000165BB /* AddButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddButtonCell.xib; sourceTree = "<group>"; };
+		9397C84024F33D08000165BB /* TaskFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormViewController.swift; sourceTree = "<group>"; };
+		93B1A07224EFCEB400B8341B /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		93B1A07424EFD02900B8341B /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		93B1A07624F012D800B8341B /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		93B1A07824F0140200B8341B /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		93D2C11A24F3BAC8003C8291 /* Task Form.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Task Form.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +137,13 @@
 		9322CC4A24ECE619005652DE /* Personal Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				93D2C11824F3BA88003C8291 /* Screen */,
+				9387682924EF40C8001B1D11 /* Utils */,
+				9322CC8424ED0340005652DE /* Model */,
 				9322CC4B24ECE619005652DE /* AppDelegate.swift */,
 				9322CC4D24ECE619005652DE /* SceneDelegate.swift */,
-				9322CC4F24ECE619005652DE /* ViewController.swift */,
-				9322CC5124ECE619005652DE /* Main.storyboard */,
 				9322CC5424ECE61B005652DE /* Assets.xcassets */,
+				9322CC5124ECE619005652DE /* Main.storyboard */,
 				9322CC5624ECE61B005652DE /* LaunchScreen.storyboard */,
 				9322CC5924ECE61B005652DE /* Info.plist */,
 			);
@@ -126,6 +166,79 @@
 				9322CC6F24ECE61B005652DE /* Info.plist */,
 			);
 			path = "Personal ScheduleUITests";
+			sourceTree = "<group>";
+		};
+		9322CC7B24ECF453005652DE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9397C83C24F337E4000165BB /* AddButtonCell.swift */,
+				9397C83D24F337E4000165BB /* AddButtonCell.xib */,
+				9322CC4F24ECE619005652DE /* HomeViewController.swift */,
+				9322CC7C24ECF780005652DE /* Home.storyboard */,
+				9322CC7E24ECFB57005652DE /* HomeViewModel.swift */,
+				9322CC8024ECFC40005652DE /* HomeTaskCell.swift */,
+				9322CC8124ECFC40005652DE /* HomeTaskCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9322CC8424ED0340005652DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9322CC8524ED034A005652DE /* Task.swift */,
+				9322CC8724ED6EB8005652DE /* Day.swift */,
+				933F224724EE15B6007FC280 /* Defaults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9387682924EF40C8001B1D11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9387682A24EF40D6001B1D11 /* Extensions.swift */,
+				9387682C24EF423D001B1D11 /* UtilsDate.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		93B1A07024EFCD2A00B8341B /* History */ = {
+			isa = PBXGroup;
+			children = (
+				93B1A07224EFCEB400B8341B /* History.storyboard */,
+				93B1A07624F012D800B8341B /* HistoryViewController.swift */,
+				93B1A07824F0140200B8341B /* HistoryViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		93B1A07124EFCD3100B8341B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				93B1A07424EFD02900B8341B /* Settings.storyboard */,
+				9396C35124F1EE02002BEA9A /* SettingsViewController.swift */,
+				9396C35324F1F35A002BEA9A /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		93D2C11824F3BA88003C8291 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				93B1A07124EFCD3100B8341B /* Settings */,
+				93B1A07024EFCD2A00B8341B /* History */,
+				93D2C11924F3BA91003C8291 /* Task Form */,
+				9322CC7B24ECF453005652DE /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		93D2C11924F3BA91003C8291 /* Task Form */ = {
+			isa = PBXGroup;
+			children = (
+				93D2C11A24F3BAC8003C8291 /* Task Form.storyboard */,
+				9397C84024F33D08000165BB /* TaskFormViewController.swift */,
+			);
+			path = "Task Form";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +345,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9322CC8324ECFC40005652DE /* HomeTaskCell.xib in Resources */,
 				9322CC5824ECE61B005652DE /* LaunchScreen.storyboard in Resources */,
+				9397C83F24F337E5000165BB /* AddButtonCell.xib in Resources */,
+				93B1A07324EFCEB400B8341B /* History.storyboard in Resources */,
+				93B1A07524EFD02900B8341B /* Settings.storyboard in Resources */,
 				9322CC5524ECE61B005652DE /* Assets.xcassets in Resources */,
 				9322CC5324ECE619005652DE /* Main.storyboard in Resources */,
+				93D2C11B24F3BAC8003C8291 /* Task Form.storyboard in Resources */,
+				9322CC7D24ECF780005652DE /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +378,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9322CC5024ECE619005652DE /* ViewController.swift in Sources */,
+				9397C83E24F337E5000165BB /* AddButtonCell.swift in Sources */,
+				933F224824EE15B6007FC280 /* Defaults.swift in Sources */,
+				9387682D24EF423D001B1D11 /* UtilsDate.swift in Sources */,
+				9387682B24EF40D6001B1D11 /* Extensions.swift in Sources */,
+				9322CC8824ED6EB8005652DE /* Day.swift in Sources */,
+				9322CC5024ECE619005652DE /* HomeViewController.swift in Sources */,
+				93B1A07724F012D800B8341B /* HistoryViewController.swift in Sources */,
+				9322CC8224ECFC40005652DE /* HomeTaskCell.swift in Sources */,
+				93B1A07924F0140200B8341B /* HistoryViewModel.swift in Sources */,
 				9322CC4C24ECE619005652DE /* AppDelegate.swift in Sources */,
 				9322CC4E24ECE619005652DE /* SceneDelegate.swift in Sources */,
+				9396C35224F1EE02002BEA9A /* SettingsViewController.swift in Sources */,
+				9322CC8624ED034A005652DE /* Task.swift in Sources */,
+				9397C84124F33D08000165BB /* TaskFormViewController.swift in Sources */,
+				9322CC7F24ECFB57005652DE /* HomeViewModel.swift in Sources */,
+				9396C35424F1F35A002BEA9A /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +569,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CXXG8H769J;
 				INFOPLIST_FILE = "Personal Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CXXG8H769J;
 				INFOPLIST_FILE = "Personal Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
